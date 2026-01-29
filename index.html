@@ -160,7 +160,7 @@
         "name": "RESEARCH_AREA_1"
       },
       {
-        "@type": "Thing", 
+        "@type": "Thing",
         "name": "RESEARCH_AREA_2"
       }
     ]
@@ -210,7 +210,12 @@
                   <a href="https://www.cse.iitd.ac.in/~narain/" target="_blank">Rahul Narain</a>
                 </span>
               </div>
-
+              <div class="is-size-5 publication-authors">
+                <!-- TODO: Replace with your institution and conference/journal info -->
+                <span class="author-block">Indian Institute of Technology Delhi</span>
+                <!-- TODO: Remove this line if no equal contribution -->
+                <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+              </div>
               <!-- <div class="is-size-5 publication-authors"> -->
               <!-- TODO: Replace with your institution and conference/journal info -->
               <!-- <span class="author-block">Indian Institute of Technology Delhi</span> -->
@@ -272,23 +277,6 @@
     </section>
 
 
-    <!-- Teaser video-->
-    <section class="hero teaser">
-      <div class="container is-max-desktop">
-        <div class="hero-body">
-          <!-- TODO: Replace with your teaser video -->
-          <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-            <!-- TODO: Add your video file path here -->
-            <source src="static/videos/Faster wrinkling_webpage.mov" type="video/mp4">
-          </video>
-          <!-- TODO: Replace with your video description -->
-          <h2 class="subtitle has-text-centered">
-            Video shows wrinkling results obtained using our method.
-          </h2>
-        </div>
-      </div>
-    </section>
-    <!-- End teaser video -->
 
     <!-- Paper abstract -->
     <section class="section hero is-light">
@@ -316,6 +304,54 @@
       </div>
     </section>
     <!-- End paper abstract -->
+    <section class="section">
+          <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Overview</h2>
+
+            <div class="columns is-centered">
+              <div class="column is-four-fifths has-text-centered">
+                <figure class="image">
+                  <img src="static/images/teaser-1.svg" alt="teaser">
+                  <!--<figcaption>-->
+                      <figcaption class="mt-2 has-text-justified is-size-6 has-text-grey">
+                          Our dynamic wrinkling model that extends Chen et al. [2021]’s static framework for dynamic wrinkling
+                          at interactive rates.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <!--<div class="columns is-centered mt-5">
+              <div class="column is-three-quarters has-text-centered">
+                <h3 class="title is-4">Energy Conservation</h3>
+                <figure class="image">
+                  <img src="static/images/energy_plot.png" alt="Energy Conservation Plot">
+                  <figcaption>
+                    Our method (Blue) maintains energy significantly better than semi-Lagrangian schemes (Red)
+                    over long simulation times.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>-->
+
+          </div>
+        </section>
+        <!-- Teaser video-->
+        <section class="hero teaser">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <!-- TODO: Replace with your teaser video -->
+              <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+                <!-- TODO: Add your video file path here -->
+                <source src="static/videos/Faster wrinkling_webpage.mov" type="video/mp4">
+              </video>
+              <!-- TODO: Replace with your video description -->
+              <h2 class="subtitle has-text-centered">
+                Video shows wrinkling results obtained using our method.
+              </h2>
+            </div>
+          </div>
+        </section>
+        <!-- End teaser video -->
 
 
     <!-- Image carousel -->
